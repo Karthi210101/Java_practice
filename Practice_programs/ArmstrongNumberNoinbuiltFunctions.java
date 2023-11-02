@@ -16,7 +16,7 @@ public class armnew {
 				mul = 1;
 				for(int j=0;j<str.length();j++)
 				{
-				mul=mul*str.charAt(i);
+				mul*=str.charAt(i);
 				}
 				sum +=mul;
 			}
